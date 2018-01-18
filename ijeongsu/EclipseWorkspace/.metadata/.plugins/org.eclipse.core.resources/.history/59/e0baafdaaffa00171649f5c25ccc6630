@@ -1,0 +1,10 @@
+package Day001Recursive;
+
+public class NonReculsiveFivonachi {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

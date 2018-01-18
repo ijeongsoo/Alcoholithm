@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="java.lang.Object"/>
+<fullyQualifiedTypeName name="sds.model.vo.StudentVO"/>
+<fullyQualifiedTypeName name="sds.model.vo.PersonVO"/>
+<fullyQualifiedTypeName name="sds.model.vo.TeacherVO"/>
+<fullyQualifiedTypeName name="hms.service.HmsService"/>
+<fullyQualifiedTypeName name="hms.model.vo.Teacher"/>
+<fullyQualifiedTypeName name="hms.service.HmsPolyService"/>
+<fullyQualifiedTypeName name="hms.view.util.CheckFlag"/>
+<fullyQualifiedTypeName name="hms.model.vo.sup.Person"/>
+<fullyQualifiedTypeName name="hms.model.vo.Student"/>
+<fullyQualifiedTypeName name="hms.model.vo.Employee"/>
+<fullyQualifiedTypeName name="com.sds.student.StudentMain"/>
+<fullyQualifiedTypeName name="com.sds.student.Student"/>
+<fullyQualifiedTypeName name="java.util.Arrays"/>
+<fullyQualifiedTypeName name="java.util.Comparator"/>
+<fullyQualifiedTypeName name="java.lang.Math"/>
+<fullyQualifiedTypeName name="java.util.Formatter"/>
+<fullyQualifiedTypeName name="com.sds.cafe.Cafe"/>
+<fullyQualifiedTypeName name="com.sds.cafe.Coffee"/>
+<fullyQualifiedTypeName name="com.sds.human.Human"/>
+<fullyQualifiedTypeName name="com.sds.human.Student"/>
+<fullyQualifiedTypeName name="sds.model.vo.Animal"/>
+<fullyQualifiedTypeName name="sds.model.vo.Superman"/>
+<fullyQualifiedTypeName name="sds.model.vo.Flyer"/>
+<fullyQualifiedTypeName name="tv.model.vo.util.TV"/>
+<fullyQualifiedTypeName name="tv.model.vo.SamsungTV"/>
+<fullyQualifiedTypeName name="tv.model.vo.LGTV"/>
+<fullyQualifiedTypeName name="tv.factory.BeanFactory"/>
+<fullyQualifiedTypeName name="java.lang.Thread"/>
+<fullyQualifiedTypeName name="java.lang.Runnable"/>
+<fullyQualifiedTypeName name="com.ship.util.ShipMain"/>
+<fullyQualifiedTypeName name="com.ship.util.Boat"/>
+<fullyQualifiedTypeName name="com.ship.util.Cruise"/>
+<fullyQualifiedTypeName name="com.ship.util.Ship"/>
+<fullyQualifiedTypeName name="java.lang.String"/>
+<fullyQualifiedTypeName name="com.sds.vehicle.Plane"/>
+<fullyQualifiedTypeName name="com.sds.vehicle.Airplane"/>
+<fullyQualifiedTypeName name="com.sds.vehicle.Cargoplane"/>
+<fullyQualifiedTypeName name="com.sds.car.L3"/>
+</qualifiedTypeNameHistroy>

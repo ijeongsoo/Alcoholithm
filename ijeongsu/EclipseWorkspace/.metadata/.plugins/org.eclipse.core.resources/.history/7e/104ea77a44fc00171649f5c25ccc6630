@@ -1,0 +1,29 @@
+package Day002Sorting1;
+
+public class InsertSort {
+
+	public static void main(String[] args) {
+		int intarr[] = {2,7,3,9,0,8,6,5,4,1};
+		
+		insertSort(intarr);
+		
+		for(int i=0; i<intarr.length; i++){
+			System.out.print(intarr[i]+" ");
+		}
+	}
+	
+	public static void insertSort(int[] intarr){
+		for(int i=1; i<intarr.length; i++){
+			for(int j=i-1; j>0; j--){
+				int tempI=intarr[i];
+				if(tempI>intarr[j]){
+					int temp = intarr[j];
+					intarr[j]=intarr[i];
+					intarr[i]=temp;
+					break;
+				}
+			}
+		}
+	}
+
+}

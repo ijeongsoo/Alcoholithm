@@ -1,0 +1,16 @@
+package Day002Sorting1;
+
+public class BubbleSort {
+
+	public static void main(String[] args) {
+		int intarr[] = {2,7,3,9,0,8,6,5,4,1};
+		
+		bubbleSort(int[] intarr);
+		
+	}
+	
+	public static void bubbleSort(int[] intarr){
+		
+	}
+
+}

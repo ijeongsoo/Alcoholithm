@@ -1,0 +1,10 @@
+package Day001Recursive;
+
+public class NonReculsiveFactorialMain {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

@@ -1,0 +1,11 @@
+import sds.last.model.sql.OracleDaoImpl;
+
+public class DBMain {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		OracleDaoImpl daoImpl = new OracleDaoImpl();
+		daoImpl.selectAll();
+	}
+
+}
