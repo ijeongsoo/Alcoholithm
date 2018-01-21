@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		C630D51D2010FBE8008860CE /* Day001SingleLinkedList.c in Sources */ = {isa = PBXBuildFile; fileRef = C630D51C2010FBE8008860CE /* Day001SingleLinkedList.c */; };
 		C630D5242010FC49008860CE /* Day002DobleLinkedList.c in Sources */ = {isa = PBXBuildFile; fileRef = C630D5232010FC49008860CE /* Day002DobleLinkedList.c */; };
+		C630D5262014747B008860CE /* Day003Qeue.c in Sources */ = {isa = PBXBuildFile; fileRef = C630D5252014747B008860CE /* Day003Qeue.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -27,6 +28,7 @@
 		C630D5192010FBE8008860CE /* Alcoholithm */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Alcoholithm; sourceTree = BUILT_PRODUCTS_DIR; };
 		C630D51C2010FBE8008860CE /* Day001SingleLinkedList.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Day001SingleLinkedList.c; sourceTree = "<group>"; };
 		C630D5232010FC49008860CE /* Day002DobleLinkedList.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = Day002DobleLinkedList.c; sourceTree = "<group>"; };
+		C630D5252014747B008860CE /* Day003Qeue.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = Day003Qeue.c; path = ../../../../../../Documents/Day003Qeue.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 			children = (
 				C630D51C2010FBE8008860CE /* Day001SingleLinkedList.c */,
 				C630D5232010FC49008860CE /* Day002DobleLinkedList.c */,
+				C630D5252014747B008860CE /* Day003Qeue.c */,
 			);
 			path = Alcoholithm;
 			sourceTree = "<group>";
@@ -122,6 +125,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C630D5262014747B008860CE /* Day003Qeue.c in Sources */,
 				C630D51D2010FBE8008860CE /* Day001SingleLinkedList.c in Sources */,
 				C630D5242010FC49008860CE /* Day002DobleLinkedList.c in Sources */,
 			);
@@ -252,6 +256,7 @@
 				C630D5222010FBE8008860CE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

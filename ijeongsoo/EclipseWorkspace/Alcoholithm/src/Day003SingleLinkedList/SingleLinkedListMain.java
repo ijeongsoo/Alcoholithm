@@ -1,0 +1,22 @@
+package Day003SingleLinkedList;
+
+import java.util.ArrayList;
+
+public class SingleLinkedListMain {
+
+	public static void main(String[] args) {
+		SingleList singleList = new SingleList();
+		
+		for(int i=0; i<100; i++){
+			singleList.insert(i*2, i+1);
+		}
+		
+		ArrayList<Integer> al = new ArrayList<Integer>();
+		
+		
+		singleList.insert(3, 96);
+		System.out.println(singleList.select(96)); //3
+		System.out.println(singleList.select(97)); // 190
+	}
+
+}

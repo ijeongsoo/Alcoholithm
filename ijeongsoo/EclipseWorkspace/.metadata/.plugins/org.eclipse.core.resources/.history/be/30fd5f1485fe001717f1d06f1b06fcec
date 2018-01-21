@@ -1,0 +1,16 @@
+package Day003SingleLinkedList;
+
+public class SingleList {
+	Node head;
+	int count;
+	
+	public SingleList() {
+		head=null;
+		count=0;
+	}
+	
+	public void insert(int value, int position){
+		
+	}
+	
+}

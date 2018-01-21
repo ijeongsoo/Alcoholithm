@@ -1,0 +1,6 @@
+package Day003SingleLinkedList;
+
+public class SingleList {
+	Node head;
+	int count;
+}
