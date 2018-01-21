@@ -1,0 +1,11 @@
+package Day003SingleLinkedList;
+
+public class SingleLinkedListMain {
+
+	public static void main(String[] args) {
+		SingleList singleList = new SingleList();
+		singleList.insert(100, 1);
+		System.out.println(singleList.select(1));
+	}
+
+}

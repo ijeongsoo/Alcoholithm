@@ -16,9 +16,9 @@ public class NonReculsiveFactorialMain {
 		for(int i=input; i>0; i--){
 			result = i*result;
 		}
-		if(input<=0){
-			result=0;
-		}
+//		if(input<=0){
+//			result=0;
+//		}
 		return result;
 	}
 
