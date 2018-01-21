@@ -1,10 +1,13 @@
-!SESSION 2018-01-21 14:53:54.805 -----------------------------------------------
-eclipse.buildId=4.6.3.M20170301-0400
-java.version=1.8.0_65
-java.vendor=Oracle Corporation
-BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=ko_KR
-Framework arguments:  -product org.eclipse.epp.package.jee.product -keyring /Users/ijeongsu/.eclipse_keyring
-Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.jee.product -keyring /Users/ijeongsu/.eclipse_keyring
 
-!ENTRY org.eclipse.core.net 1 0 2018-01-21 14:54:12.769
-!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+!ENTRY org.eclipse.mylyn.tasks.core 4 0 2018-01-21 14:55:20.918
+!MESSAGE Could not write: /Users/ijeongsu/Desktop/Alcoholithm/ijeongsu/EclipseWorkspace/.metadata/.mylyn/repositories.xml.zip
+!STACK 0
+java.io.IOException: No such file or directory
+	at java.io.UnixFileSystem.createFileExclusively(Native Method)
+	at java.io.File.createNewFile(File.java:1012)
+	at org.eclipse.mylyn.internal.tasks.core.TaskRepositoriesExternalizer.writeRepositoriesToXML(TaskRepositoriesExternalizer.java:57)
+	at org.eclipse.mylyn.internal.tasks.core.TaskRepositoryManager.saveRepositories(TaskRepositoryManager.java:420)
+	at org.eclipse.mylyn.internal.tasks.core.RepositoryExternalizationParticipant.save(RepositoryExternalizationParticipant.java:77)
+	at org.eclipse.mylyn.internal.tasks.core.externalization.AbstractExternalizationParticipant.execute(AbstractExternalizationParticipant.java:70)
+	at org.eclipse.mylyn.internal.tasks.core.externalization.ExternalizationManager$ExternalizationJob.run(ExternalizationManager.java:222)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
