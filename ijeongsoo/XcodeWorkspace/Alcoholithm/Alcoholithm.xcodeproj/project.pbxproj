@@ -3,13 +3,14 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 48;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		C630D51D2010FBE8008860CE /* Day001SingleLinkedList.c in Sources */ = {isa = PBXBuildFile; fileRef = C630D51C2010FBE8008860CE /* Day001SingleLinkedList.c */; };
-		C630D5242010FC49008860CE /* Day002DobleLinkedList.c in Sources */ = {isa = PBXBuildFile; fileRef = C630D5232010FC49008860CE /* Day002DobleLinkedList.c */; };
-		C630D5262014747B008860CE /* Day003Qeue.c in Sources */ = {isa = PBXBuildFile; fileRef = C630D5252014747B008860CE /* Day003Qeue.c */; };
+		C629FFA6201CED8600A12CC2 /* Day002DobleLinkedList.c in Sources */ = {isa = PBXBuildFile; fileRef = C630D5232010FC49008860CE /* Day002DobleLinkedList.c */; };
+		C629FFA7201CED8600A12CC2 /* Day003Qeue.c in Sources */ = {isa = PBXBuildFile; fileRef = C630D5252014747B008860CE /* Day003Qeue.c */; };
+		C629FFBB201CF17500A12CC2 /* Day001SingleLinkedList.c in Sources */ = {isa = PBXBuildFile; fileRef = C630D51C2010FBE8008860CE /* Day001SingleLinkedList.c */; };
+		C629FFBC201CF20900A12CC2 /* Alcoholithm in Sources */ = {isa = PBXBuildFile; fileRef = C630D5192010FBE8008860CE /* Alcoholithm */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -104,7 +105,7 @@
 				};
 			};
 			buildConfigurationList = C630D5142010FBE8008860CE /* Build configuration list for PBXProject "Alcoholithm" */;
-			compatibilityVersion = "Xcode 3.2";
+			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -125,9 +126,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C630D5262014747B008860CE /* Day003Qeue.c in Sources */,
-				C630D51D2010FBE8008860CE /* Day001SingleLinkedList.c in Sources */,
-				C630D5242010FC49008860CE /* Day002DobleLinkedList.c in Sources */,
+				C629FFBB201CF17500A12CC2 /* Day001SingleLinkedList.c in Sources */,
+				C629FFA6201CED8600A12CC2 /* Day002DobleLinkedList.c in Sources */,
+				C629FFA7201CED8600A12CC2 /* Day003Qeue.c in Sources */,
+				C629FFBC201CF20900A12CC2 /* Alcoholithm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -226,6 +228,7 @@
 		C630D5212010FBE8008860CE /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -233,6 +236,7 @@
 		C630D5222010FBE8008860CE /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
