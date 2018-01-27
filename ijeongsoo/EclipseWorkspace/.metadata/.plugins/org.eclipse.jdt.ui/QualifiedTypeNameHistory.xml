@@ -39,4 +39,10 @@
 <fullyQualifiedTypeName name="com.sds.vehicle.Airplane"/>
 <fullyQualifiedTypeName name="com.sds.vehicle.Cargoplane"/>
 <fullyQualifiedTypeName name="com.sds.car.L3"/>
+<fullyQualifiedTypeName name="java.util.Scanner"/>
+<fullyQualifiedTypeName name="java.lang.System"/>
+<fullyQualifiedTypeName name="Day003SingleLinkedList.Node"/>
+<fullyQualifiedTypeName name="Day003SingleLinkedList.SingleLinkedListMain"/>
+<fullyQualifiedTypeName name="Day003SingleLinkedList.SingleList"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
 </qualifiedTypeNameHistroy>

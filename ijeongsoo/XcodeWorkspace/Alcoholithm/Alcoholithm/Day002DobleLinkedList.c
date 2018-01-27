@@ -31,7 +31,17 @@ void modify(list * lptr, int value, int position);
 
 
 int main(int argv, const char * argc[]){
+    list * list_1 = (list *)malloc(sizeof(list));
     
+    init(list_1);
+    insert(list_1, 1, 1);
+    insert(list_1, 2, 2);
+    insert(list_1, 3, 3);
+    insert(list_1, 4, 4);
+    printf("%d\n", list_1->head->value);
+    printf("%d\n", list_1->head->next->value);
+    printf("%d\n", list_1->head->next->value);
+    return 0;
 }
 
 void init(list * lptr){
@@ -55,10 +65,16 @@ void insert(list * lptr, int value, int position){
             for(int i=0; i<position-2;i++){
                 temp=temp->next;
             }
-            temp->next=
+            new_node->next=temp->next;
+            new_node->next->prev=new_node;
+            temp->next=new_node;
+            new_node->prev=temp;
         }
+        lptr->count++;
     }
 }
+
+
 
 
 
