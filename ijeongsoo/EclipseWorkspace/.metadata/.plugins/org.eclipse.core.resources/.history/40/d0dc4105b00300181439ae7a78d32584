@@ -1,0 +1,13 @@
+package Day003Sorting2.RadixSort;
+
+public class Queue {
+	Node front;
+	Node rear;
+	int count;
+	
+	Queue(){
+		front=null;
+		rear=null;
+		count =0;
+	}
+}

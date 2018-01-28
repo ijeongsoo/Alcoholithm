@@ -1,0 +1,13 @@
+package Day002Sorting1.Escape;
+
+import java.util.Scanner;
+
+public class EscapeMain {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner sc = new Scanner(System.in);
+		int input = Integer.parseInt(sc.nextLine());
+	}
+
+}

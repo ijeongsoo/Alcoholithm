@@ -1,0 +1,30 @@
+package Day002Sorting1.Escape;
+
+import java.util.ArrayList;
+import java.util.Scanner;
+
+public class EscapeMain {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner sc = new Scanner(System.in);
+		int input = Integer.parseInt(sc.next());
+		
+		ArrayList list = new ArrayList();
+		
+		for(int i=0; i<input; i++){
+			Person p = new Person();
+			p.age=Integer.parseInt(sc.next());
+			p.name=sc.next();
+			p.gender=sc.next();
+			p.isClub=sc.next();
+			list.add(p);
+		}
+		
+		for(int i=0; i<input; i++){
+			System.out.println(((Person)list.get(i)).name);
+		}	
+		
+	}
+
+}

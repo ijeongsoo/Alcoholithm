@@ -1,0 +1,14 @@
+package Day004DivideAndConquer;
+
+import java.util.Scanner;
+
+public class Compression {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner sc = new Scanner(System.in);
+		int input = sc.nextInt();
+		int[][] inputArr = new int[input][];
+	}
+
+}

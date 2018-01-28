@@ -1,0 +1,22 @@
+package Day003Sorting2.RadixSort;
+
+public class Queue {
+	Node front;
+	Node rear;
+	int count;
+	
+	Queue(){
+		front=null;
+		rear=null;
+		count =0;
+	}
+	
+	public void enqueue(int value){
+		Node new_node = new Node(value, null);
+		if(this.count==0){
+			this.front=new_node;
+		}else{
+			this.rear.next=new_node;
+		}
+	}
+}

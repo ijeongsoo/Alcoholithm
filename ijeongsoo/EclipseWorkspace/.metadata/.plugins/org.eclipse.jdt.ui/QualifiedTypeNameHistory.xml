@@ -34,15 +34,19 @@
 <fullyQualifiedTypeName name="com.ship.util.Boat"/>
 <fullyQualifiedTypeName name="com.ship.util.Cruise"/>
 <fullyQualifiedTypeName name="com.ship.util.Ship"/>
-<fullyQualifiedTypeName name="java.lang.String"/>
 <fullyQualifiedTypeName name="com.sds.vehicle.Plane"/>
 <fullyQualifiedTypeName name="com.sds.vehicle.Airplane"/>
 <fullyQualifiedTypeName name="com.sds.vehicle.Cargoplane"/>
 <fullyQualifiedTypeName name="com.sds.car.L3"/>
-<fullyQualifiedTypeName name="java.util.Scanner"/>
 <fullyQualifiedTypeName name="java.lang.System"/>
 <fullyQualifiedTypeName name="Day003SingleLinkedList.Node"/>
 <fullyQualifiedTypeName name="Day003SingleLinkedList.SingleLinkedListMain"/>
 <fullyQualifiedTypeName name="Day003SingleLinkedList.SingleList"/>
 <fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="Day002Sorting1.Escape.Person"/>
+<fullyQualifiedTypeName name="Day003Sorting2.RadixSort.Node"/>
+<fullyQualifiedTypeName name="Day003Sorting2.RadixSort.Queue"/>
+<fullyQualifiedTypeName name="java.util.Scanner"/>
+<fullyQualifiedTypeName name="java.lang.String"/>
+<fullyQualifiedTypeName name="java.lang.Integer"/>
 </qualifiedTypeNameHistroy>
